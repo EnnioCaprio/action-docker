@@ -9,6 +9,6 @@ const app = express();
 
 app.use(bodyParser.json());
 
-//app.use(eventRoutes);
+app.use(eventRoutes);
 
 app.listen(process.env.PORT);
